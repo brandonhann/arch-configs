@@ -1,0 +1,38 @@
+URxvt.background: #140121
+URxvt.foreground: #a497e6
+URxvt.cursorColor: #a497e6
+URxvt.color0: #28163d
+URxvt.color1: #3d2b59
+URxvt.color2: #514175
+URxvt.color3: #665691
+URxvt.color4: #7a6cad
+URxvt.color5: #8f81c9
+URxvt.color6: #a497e6
+URxvt.color7: #a497e6
+URxvt.scrollBar: false
+URxvt.geometry: 400x400
+URxvt*loginShell: true
+URxvt*shell: /usr/bin/fish
+
+URxvt.internalBorder: 12
+URxvt.externalBorder: 0
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+
+URxvt.confirmPaste: false
+URxvt.perl-ext-common: default,-confirm-paste,clipboard
+perl-ext: default,-confirm-paste, clipboard
+
+URxvt.font: xft:Terminus:size=10,xft:Noto Sans Mono:size=10
+URxvt.boldFont: xft:Terminus:bold:size=10,xft:Noto Sans Mono:bold:size=10
+
+URxvt.urgentOnBell: false 
+URxvt.visualBell: false ! Scrollback buffer size 
